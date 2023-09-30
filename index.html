@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- this part to make the website responsive -->
+        <meta name="viewport" content="with=device-width, initial-scale=1.0"> 
+        <!-- this part to make the website responsive -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- the css file wor the page style  -->
+        <link rel="stylesheet" href="style.css">
+        <!-- the css file wor the page style  -->
+
+        <!-- The website font we want from google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Almarai&family=Cairo&family=Poppins:wght@200;300;400;600;700;800&family=Rubik:ital,wght@1,800&display=swap" rel="stylesheet">
+        <!-- The website font we want from google fonts -->
+
+
+        <!-- the window title -->
+        <title>Reema info </title>
+         <!-- the window title -->
+
+    </head>
+    <body>
+<!-- ----------------------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- Header me section -->
+<!-- ----------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+        <!-- -------------------------------------- -->
+        <!-- the header section  -->
+        <!-- -------------------------------------- -->
+        <section class="header">
+
+            <!-- navigation bar section -->
+            <nav>
+                <!-- logo -->
+                <a href="index.html"><img src="images/index/logo.png"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href=""><i class="fa fa-home" aria-hidden="true"></i> HOME</a> </li>
+                    <li><a href="#About-me"><i class="fa fa-user" aria-hidden="true"></i>ABOUT ME</a> </li>
+                    <li><a href="#contact"><i class="fa fa-mobile" aria-hidden="true"></i> Contact info</a> </li>
+
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <!-- navigation bar section -->
+
+            <!-- the fist page content on a div -->
+            <div class="text-box">
+                <h1>Welcome!</h1>
+                <p>Hi, I'm Reema Abdullah. Let me introduce myself to you through a simple website  
+                    
+                </p>
+                <p class="theIntro">Im a computer science fresh graduate I am so passionate and always trying to learn new things, and what I end up with is...</p>
+            
+            </div>
+            <!-- the fist page content on a div -->
+        </section>
+        <!-- -------------------------------------- -->
+        <!-- the header section  -->
+        <!-- -------------------------------------- -->
+
+<!-- ----------------------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- About me section -->
+<!-- ----------------------------------------------------------------------------------------------------------------------------------------------- -->
+<section class="About-me" id="About-me">
+    <h1>
+        About me
+    </h1>
+
+    <div class="row">
+        <div class="col">
+            <h3>AI</h3>
+            <p>I have a good background in data analysis, data cleaning, and building models using Python, so I developed more than 10 models in AI.</p>
+        </div>
+        <div class="col">
+            <h3>Web & mobile app design</h3>
+            <p>I did many research studies in my academic journal about UI and how it would affect the user experience, and we could do heuristic evaluation. I also worked on designing UI/UX for websites and mobile apps using both Figma and Adobe XD</p>
+        </div>
+        <div class="col">
+            <h3>Web & mobile app developer</h3>
+            <p>I developed many front-end and back-end mobile and web apps using Python (Django), Java, JavaScript, Firebase, Dart (Flutter), HTML, and CSS, and I even worked on designing two websites in WordPress.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- ----------------------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- Contacts with me section -->
+<!-- ----------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<section class="contact" id="contact">
+    <h1>Contact with me </h1>
+<div class="contant-row">
+    <div class="contact-col">
+        <a href="https://twitter.com/Reema_Alharbi01">
+        <img src="images/contact/x.png">
+        <h3>Twitter</h3>
+        <p>Reema_Alharbi01</p>
+        </a>
+    
+    </div>
+
+    <div class="contact-devider">
+        <p></p>
+    </div>
+    <a href="https://www.linkedin.com/in/reema-alharbi-085b7427b/">
+    <div class="contact-col">
+        <img src="images/contact//l.png">
+        <h3>linkedin</h3>
+        <p>Reema Alharbi</p>
+    </a>
+    </div>
+
+
+</div>
+
+</section>
+
+<section class="foter">
+    <p>&copy; 2023 Reema info. Reema Alharbi.</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- --------------------------- javascript fot the menu button --------------------------- -->
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showMenu() {
+        navlinks.style.right = "0";
+    }
+    function hideMenu() {
+        navlinks.style.right = "-200px";
+    }
+</script>
+
+    </body>
+</html>
